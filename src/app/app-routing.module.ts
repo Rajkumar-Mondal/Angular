@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CounterComponent } from './counter/counter/counter.component';
+import { TodoComponent } from './todo/todo.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: CounterComponent,
+    component: TodoComponent,
   },
 ];
 
